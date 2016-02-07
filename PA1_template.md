@@ -1,9 +1,8 @@
----
-title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
----
+# "Reproducible Research: Peer Assessment 1"
+#output: 
+#  html_document:
+#    keep_md: true
+#---
 
 
 ## Loading and preprocessing the data
@@ -190,6 +189,6 @@ plot(names(WeekAverageInt),WeekAverageInt,type="l",main="Week data",xlab="5 Minu
 ```
 
 ![plot of chunk unnamed-chunk-12](figure/unnamed-chunk-12-1.png) 
-
+The final report was produced in an R Markdown file, and compiled with knit2html("PA1_template.Rmd").
 
 

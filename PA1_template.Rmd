@@ -1,12 +1,8 @@
----
-title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
----
+# Reproducible Research 
+Project 1, completed by Ugur Ural, February 2016.
 
 
-## Loading and preprocessing the data
+## Loading and preprocessing the data 
 ```{r createData,echo=TRUE}
 setwd("/Users/ugurural/Desktop/Data_Science/ReproducibleResearch/Project1/RepData_PeerAssessment1/")
 activitydata<-read.csv("activity.csv")#colClasses=c("numeric","POSIXct","numeric")
@@ -147,6 +143,7 @@ plot(names(WeekendAverageInt),WeekendAverageInt,type="l",main="Weekend data",yla
 plot(names(WeekAverageInt),WeekAverageInt,type="l",main="Week data",xlab="5 Minutes Interval",ylab="Number of Steps")
 
 ```
+
 The final report was produced in an R Markdown file, and compiled with knit2html("PA1_template.Rmd").
 
 
